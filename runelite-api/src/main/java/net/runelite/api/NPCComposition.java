@@ -49,6 +49,12 @@ public interface NPCComposition extends ParamHolder
 	String[] getActions();
 
 	/**
+	 * Set custom menu option actions. Size needs to be 5 and items can be null
+	 * @param actions String action array to override current one
+	 */
+	void setActions(String[] actions);
+
+	/**
 	 * NPC can be interacting with via menu options
 	 * @return
 	 */
